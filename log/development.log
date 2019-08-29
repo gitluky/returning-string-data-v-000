@@ -1549,3 +1549,7 @@ Migrating to AddAuthorIdToPosts (20160119185429)
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("title", "description", "author_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Links! Click Links!"], ["description", "  Last night I dreamt we simply need to realize to be so competitive.\n  Does the responsibility lie with Links, you probably wonder...\n  The answer is here. Right here. About the time I broke up with my\n  ex I was totally into music. Whatever. So that's that.\n  But something wasn't right. I stumbled upon a giant banana.\n"], ["author_id", 3], ["created_at", "2019-08-29 19:43:16.848319"], ["updated_at", "2019-08-29 19:43:16.848319"]]
   [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 196.52.2.104 at 2019-08-29 19:43:34 +0000
+Cannot render console from 196.52.2.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
