@@ -8,6 +8,7 @@ $(function () {
     let id = $(this).data('id');
     $.get('/posts' + id + '/body', function(data)
       alert(data);
-    })
-  })
-}
+    });
+  });
+});
+</script>
